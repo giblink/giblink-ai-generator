@@ -1,0 +1,21 @@
+// -------------------
+// FILE: package.json
+// -------------------
+// This file defines your project and its dependencies.
+// After uploading, you will run "npm install" in your cPanel terminal
+// to install these packages.
+{
+  "name": "giblink-ai-plan-generator",
+  "version": "1.1.0",
+  "description": "Receives data from Fluent Forms, generates a marketing plan via OpenAI, and posts it to a WordPress bridge.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "gibLink Ai",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.19.2"
+  }
+}
